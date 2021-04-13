@@ -52,16 +52,15 @@ td {
 	height: 120px;
 	cursor: pointer;
 	grid-row: 1;
-	// background-image: url('../img/cross.png');
-	// background-image: url('../img/null.png');
+
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
 	opacity: 0.3;
-	// &:hover {
-	// 	background-image: url('../img/null.png');
-	// 	background-image: url('../img/cross.png');
-	// }
+	&:hover {
+		background-image: url('../img/null.png');
+		// background-image: url('../img/cross.png');
+	}
 }
 
 table tr:first-child td {
@@ -96,13 +95,12 @@ table tr td:last-child {
 .turn-icon {
 	width: 60px;
     height: 60px;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px 1px #000;
     background-color: #fff;
 	background-image: url('../img/cross.png');
-	// background-image: url('../img/null.png');
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 70%;
 	background-position: center;
 	display: block;
 }
